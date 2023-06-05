@@ -1,0 +1,148 @@
+.container-repasse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    padding-bottom: 30px;
+}
+
+html {scroll-behavior: smooth;}
+
+.pedro-feitosa img {
+    width: 450px;
+    height: 450px;
+    margin-right: 70px;
+    border-right: 1px solid green;
+    background-position: center;
+}
+
+.pedro-feitosa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px 70px;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid green;
+    box-shadow: 1px 1px 4px 1px rgba(28, 160, 21, 1);
+}
+
+.pedro-feitosa:hover {
+    box-shadow: 1px 1px 14px 1px rgba(28, 160, 21, 1);
+    transition: all 0.6s;
+}
+
+
+
+.conteudo-pedro p {
+    font-size: 23px;
+    width: 100%;
+}
+
+@media screen and (min-width: 360px) and (max-width: 990px) { 
+    .container-repasse {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        color: azure;
+    }
+
+    .pedro-feitosa .img-pedro {
+        display: flex;
+        padding: auto;
+        margin: auto;
+        width: 80%;
+        height: 200px;
+        border-right: none;
+        margin-bottom: 30px;
+    }
+
+    .pedro-feitosa {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        text-align: justify;
+        border: 1px solid green;
+        box-shadow: 1px 1px 4px 1px rgba(28, 160, 21, 1);
+    }
+
+    .conteudo-pedro p {
+        font-size: 15px;
+        width: 250px;
+    }
+    .container-images {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1280px) { 
+    .container-repasse {
+        display: flex;
+        width: 100%;
+        color: azure;
+    }
+
+    .pedro-feitosa .img-pedro {
+        display: flex;
+        padding: auto;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        border-right: none;
+        margin-bottom: 30px;
+
+    }
+
+    .pedro-feitosa {
+        display: flex;
+        width: 60%;
+        text-align: justify;
+        border: 1px solid green;
+        box-shadow: 1px 1px 4px 1px rgba(28, 160, 21, 1);
+    }
+
+    .conteudo-pedro p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .container-images {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1380px) { 
+    .container-repasse {
+        display: flex;
+        width: 100%;
+        color: azure;
+    }
+
+    .pedro-feitosa .img-pedro {
+        display: flex;
+        padding: auto;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        border-right: 1px solid green;
+        margin-bottom: 30px;
+
+    }
+
+    .pedro-feitosa {
+        display: flex;
+        width: 60%;
+        text-align: justify;
+        border: 1px solid green;
+        box-shadow: 1px 1px 4px 1px rgba(28, 160, 21, 1);
+    }
+
+    .conteudo-pedro p {
+        padding-left: 30px;
+        font-size: 20px;
+        width: 100%;
+    }
+    .container-images {
+        height: 600px;
+    }
+}

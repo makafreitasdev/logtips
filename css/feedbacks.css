@@ -1,0 +1,153 @@
+.container-slider {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+html {scroll-behavior: smooth;}
+
+.container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+.slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.on {
+    opacity: 1;
+}
+
+#prev-button, #next-button {
+    width: 30px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    color: transparent;
+}
+
+.feedbacks-clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: azure;
+    margin-right: 80px;
+}
+
+.titulo-feedbacks {
+    font-size: 65px;
+}
+
+.feedbacks-conteudo {
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media screen and (min-width: 360px) and (max-width: 990px) { 
+    .container-slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        gap: 5px;
+        padding-top: 50px;
+    }
+
+    .feedbacks-clientes {
+        height: 40px;
+        width: 100%;
+        padding-left: 80px;
+    }
+
+    .feedbacks-clientes h1 {
+        font-size: 30px;
+    }
+    .feedbacks-clientes p {
+        margin-top: 30px;
+        height: 100%;
+        font-size: 20px;
+    }
+
+    .feedbacks-conteudo {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .container-images {
+        padding-top: 20px;
+        padding-bottom: 0;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1280px) { 
+    .container-slider {
+        display: flex;
+        width: 991;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .container-images {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    
+    .slider {
+        opacity: 0;
+        transition: opacity .2s;
+        position: absolute;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .on {
+        opacity: 1;
+    }
+    
+    #prev-button, #next-button {
+        width: 30px;
+        height: 50px;
+        font-size: 30px;
+        border: none;
+        background-color: transparent;
+        color: transparent;
+    }
+    
+    .feedbacks-clientes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: azure;
+        margin-right: 80px;
+    }
+    
+    .titulo-feedbacks {
+        font-size: 40px;
+    }
+    
+    .feedbacks-conteudo {
+        margin-top: 80px;
+        font-size: 30px;
+        text-align: center;
+    }
+}

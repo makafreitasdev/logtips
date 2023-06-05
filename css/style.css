@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,14,8,1) 90%, rgba(8,20,6,1) 100%);
+}
+.container-cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid green;
+    background-color: black;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 1px 1px 14px 1px rgba(28, 160, 21, 1);
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.container-cabecalho .navigator {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    height: 60px;
+}
+
+.navigator a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+}
+
+.navigator .grupogratis {
+    color: green;
+    margin-left: 10px;
+    width: 300px;
+}
+
+.rodape-container {
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+    background-color: green
+}
+
+.rodape-conteudo span {
+    color: black;
+}
+
+@media screen and (min-width: 360px) and (max-width: 990px) {
+    .navigator .nav1,
+    .navigator .nav2,
+    .navigator .nav3 {
+      display: none;
+    }
+
+    .container-cabecalho {
+        padding: 10px 5px;
+    }
+
+    .container-cabecalho .navigator {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        height: 60px;
+    }
+
+    .navigator a {
+        display: flex;
+        align-items: center;
+        color: azure;
+        text-decoration: none;
+        width: 120px;
+        height: 40px;
+    }
+
+    .navigator .grupogratis {
+        color: green;
+        width: 120px;
+    }
+
+  }
+
+  @media screen and (min-width: 991px) and (max-width: 1280px) {
+    .container-cabecalho {
+        padding: 10px 5px;
+    }
+
+    .container-cabecalho .navigator {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        height: 60px;
+    }
+
+    .navigator a {
+        display: flex;
+        align-items: center;
+        color: azure;
+        text-decoration: none;
+        width: 120px;
+        height: 40px;
+    }
+
+    .navigator .grupogratis {
+        color: green;
+        width: 120px;
+    }
+
+  }
+
+  
