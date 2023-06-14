@@ -36,7 +36,9 @@ html {scroll-behavior: smooth;}
 
 
 .conteudo-pedro p {
-    font-size: 23px;
+    font-size: 20px;
+    font-family: "Darker Grotesque", Sans-serif;
+    line-height: 35px;
     width: 100%;
 }
 
