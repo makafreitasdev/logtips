@@ -72,6 +72,7 @@ html {scroll-behavior: smooth;}
     .conteudo-pedro p {
         font-size: 15px;
         width: 250px;
+        line-height: normal;
     }
     .container-images {
         height: 400px;

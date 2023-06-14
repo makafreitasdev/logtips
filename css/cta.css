@@ -60,6 +60,7 @@
     box-shadow: 1px 1px 11px 1px rgba(28, 160, 21, 1);
     background:green;
     cursor: pointer;
+    z-index: 10;
 }
 
 .btn-vip a {
